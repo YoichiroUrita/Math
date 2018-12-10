@@ -5,4 +5,7 @@ Under Construction
 
 ## Complex Eigen Value
 * Single QR method
-Asymmetric matrix --(Householder transformation)-- Hessenberg matrix --(Single QR shift)-- Extraction of Complex Eigen value
+
+  Asymmetric matrix -->(Householder transformation)-->
+
+    Hessenberg matrix -->(Single QR shift)--> <u>Extraction of Complex Eigen value</u>
