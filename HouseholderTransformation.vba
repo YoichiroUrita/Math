@@ -1,6 +1,7 @@
 Function Householder(x As Object)
 
 'Hessenberg Matrix by Householder Transformation
+'You can use this function as Excel cell function
 '6/6/2014
 
 '
