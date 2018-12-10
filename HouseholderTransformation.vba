@@ -103,6 +103,6 @@ For i = 3 To N
     Next j
 Next i
 
-    Householder = a
+Householder = a 'if you need Q matrix (qmat) ,replace a to qmat
     
 End Function
