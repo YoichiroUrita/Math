@@ -31,9 +31,9 @@ Mainly linear algebra function by various computer languages
 
 &nbsp;&nbsp; <em> For example </em>
 
-&nbsp;&nbsp;=Householder(A1:D4)
+&nbsp;&nbsp;&nbsp;&nbsp;=Householder(A1:D4)
 
-&nbsp;&nbsp;In this case, range A1:D4 are reference matrix (asymmetric matrix you want to extract Eigen values)
+&nbsp;&nbsp;&nbsp;&nbsp;In this case, range A1:D4 are reference matrix (asymmetric matrix you want to extract Eigen values)
 
 ---
 
