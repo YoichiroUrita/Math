@@ -21,7 +21,7 @@ Mainly linear algebra function by various computer languages
 &nbsp;&nbsp;![#008c15](https://placehold.it/15/008c15/000000?text=+)
 <em> How to use?</em><br>
 
-0) Turn visual basic window (ALT + F11) on ,and insert standard module. Then copy and paste user functions.
+0) Turn visual basic window (ALT + F11 or develop on ribon -> Visual Basic) on ,and insert standard module. Then copy and paste user functions.
 
 1) Select range on Excel worksheet. (Excel extracts calculation values on this range)
 
