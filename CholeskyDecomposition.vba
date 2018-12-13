@@ -1,6 +1,7 @@
 Function Cholesky(x As Object)
 'Cholesky decomposition
 'original 6/14/2004
+'I forgot where I refer from...
     
     'decralations
     Dim i, j, k, II, JJ, N, Im() As Integer
