@@ -9,7 +9,7 @@ Mainly linear algebra function by various computer languages
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can use <a href="DoubleShiftQR.vba">DoubleShiftQR.vba</a> instead of SingleShiftQRforComplexEigenProblem.vba, but it is NOT stable.<br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <i> Extraction procedure </i>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <i> [Extraction procedure] </i>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Asymmetric matrix -->(Householder transformation)-->
 
