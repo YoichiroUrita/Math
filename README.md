@@ -43,9 +43,9 @@ Mainly linear algebra function by various computer languages
 
 &nbsp;&nbsp;Each diagonal elements are Eigenvalues.
 
-### Cholesky decomposition
+### <a href="CholeskyDecomposition.vba">Cholesky decompostion</a>
 
-&nbsp;&nbsp;<a href="CholeskyDecomposition.vba">Cholesky decompostion</a> is for generalized eiven problem.<br>
+&nbsp;&nbsp;<a href="CholeskyDecomposition.vba">Cholesky decompostion</a> is for generalized Eigenvalue problem.<br>
 
 &nbsp;&nbsp;For example noise and vibration (MK type) ,buckling (Eular buckling) and etc..
 
