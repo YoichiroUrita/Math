@@ -110,7 +110,7 @@ Function EigenValueJ(x As Object)
         a2(i) = a(i, i)
     Next
     
-    'vector
-        EigenValueJ = a2
+'Eigen values/vectors
+EigenValueJ = a2 'if you need Eigen vectors ,replace a2 to v
 
 End Function
