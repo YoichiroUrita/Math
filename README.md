@@ -51,7 +51,7 @@ Mainly linear algebra function by various computer languages
 
 &nbsp;&nbsp;Cholesky decomposition makes lower triangle matrix L from A square matrix (or upper triangle matrix U).
 
-&nbsp;&nbsp;A=L*L^t or A=U^t*U ( L^t is transpose(L) )
+&nbsp;&nbsp;A=L\*L^t or A=U^t\*U ( L^t is transpose(L) )
 
 &nbsp;&nbsp;Concept of Cholesky decomposition is Root of matrix. (I think so)
 
