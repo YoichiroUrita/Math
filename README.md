@@ -57,7 +57,21 @@ Mainly linear algebra function by various computer languages
 
 &nbsp;&nbsp;LU decomposition is NOT same, but decomposition for Gauss elimination.
 
-&nbsp;&nbsp;
+### Applications
+
+&nbsp;&nbsp;Standard Eigenvalue problems are mainly for tensors probably.
+
+&nbsp;&nbsp;Tensors are a kind of number, are similar to complex value. And those notation are same as matrix.
+
+&nbsp;&nbsp;In real number and non-direction dependency, tensor is symmetric matrix.
+
+&nbsp;&nbsp;As N * N matrix, Tensor include N pairs of principle value and principle axis.
+
+&nbsp;&nbsp;And principle values are as Eigenvalues, princple axes are as Eigenvector.
+
+&nbsp;&nbsp;So, you can use real Eigenvalue problem for solving tensor to principle values and axes.
+
+&nbsp;&nbsp;<a href="TensorConverter.htm">TensorConverter.htm</a> is able to extract principles from tensor by browser easily.
 
 ---
 
