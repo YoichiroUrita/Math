@@ -73,6 +73,8 @@ Mainly linear algebra function by various computer languages
 
 &nbsp;&nbsp;<a href="TensorConverter.htm">TensorConverter.htm</a> is able to extract principles from tensor by browser easily.
 
+&nbsp;&nbsp;This Eingenvalue solver is translation from vba (Jacobi Eigenvalue algorithm) to javascript.
+
 ---
 
 # Under Construction
