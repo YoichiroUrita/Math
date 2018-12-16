@@ -65,7 +65,7 @@ Mainly linear algebra function by various computer languages
 
 &nbsp;&nbsp;In real number and non-direction dependency, tensor is symmetric matrix.
 
-&nbsp;&nbsp;As N * N matrix, Tensor include N pairs of principle value and principle axis.
+&nbsp;&nbsp;As N * N matrix, Tensor includes N pairs of principle value and principle axis.
 
 &nbsp;&nbsp;And principle values are as Eigenvalues, princple axes are as Eigenvector.
 
