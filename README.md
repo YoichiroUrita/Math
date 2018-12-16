@@ -77,4 +77,16 @@ Mainly linear algebra function by various computer languages
 
 ---
 
+## <a href="SVD.vba">Singular Value Decomposition (SVD)</a>
+
+My understanding is that SVD is a type of Eigenvalue problem for non-square matrix.
+
+SVD has not only similarity of Eigenvalue problem but also similarity of inverse matrix too.
+
+In major use , it is for pseudoinverse in multiple regression equation. 
+
+<a href="http://web.mit.edu/be.400/www/SVD/Singular_Value_Decomposition.htm">Proper example of SVD</a> (It is much easier to understand than my explanation.)
+
+Another way for pseudoinverse is for example <a href="http://help.matheass.eu/en/Pseudoinverse.html">here</a>.
+
 # Under Construction
