@@ -13,7 +13,7 @@ Mainly linear algebra function by various computer languages
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Asymmetric matrix -->(Householder transformation)-->
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hessenberg matrix -->(Single QR shift)--> <u>Extraction of Complex Eigen value</u>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hessenberg matrix -->(Single QR shift)--> <u>Extraction of Complex Eigenvalue</u>
 
 
 2) Eigenvectors are extracted from original matrix (asymmetric matrix) and Eigenvalues by <a href="EigenVectorForComplex.vba">EigenVectorForComplex.vba</a>
