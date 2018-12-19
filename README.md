@@ -89,4 +89,17 @@ In major use , it is for pseudoinverse in multiple regression equation.
 
 Another way for pseudoinverse is for example <a href="http://help.matheass.eu/en/Pseudoinverse.html">here</a>.
 
+---
+
+## Library for matrix calculation in Visual Studio C++
+
+<a href="Matrix.h">Matrix.h</a> is library for matrix.
+
+I wrote by Visual Studio 2013 C++. But almost of C++ compilers are able to compile by small modification.
+
+See prototype to each function you want to use.
+
+Sorry for comments are in Japanese, I will add explanations if I felt like to do. XD
+
+
 # Under Construction
