@@ -1,6 +1,6 @@
 //Header file :matrix00
 /*******************************************
- * 行列計算用ライブラリ
+ * 行列計算用ライブラリ (Library for matrix calculation)
  *     ver.2018/01/05
  *******************************************/
 #define _USE_MATH_DEFINES
@@ -14,56 +14,56 @@
 
 typedef double **Mata, **Matb, **Matc, **Matd,**Mate,*Veca,*Vecb,*Vecc;
 
-int madd(Mata, Matb, Matc, int, int);//行列の和
-int msub(Mata, Matb, Matc, int, int);//行列の差
-int mtimes(Mata, double, Matc, int, int);//行列のｎ倍
-int mmult(Mata, Matb, Matc, int, int, int);//行列の内積
-int mtrans(Mata, Matb, int, int);//転置
-int minv(Mata, Matb, int);//逆行列
-int mcomp(Mata, Matb, Matc, int, int);//実行列による複素表現
-int mreal(Mata, Matb,int, int);//複素表現から実部のみ取りだす
-int msimi(Mata, Matb, Matc, int, int);//相似変換
-int mchol(Mata, Matb, int);//コレスキー分解
-int meigj(Mata, Veca, Matb, int);//標準実固有値分解　Jacobi法
-int mskew(Veca, Mata);//歪対称行列（３＊３）
-int moutpro(Veca, Vecb,Vecc);//外積（３＊３）
-int mdiag(Veca, Mata, int);//対角行列化
-int mcompdiag(Mata, Matb, int);//複素対角行列化
-int mhouse(Mata, Matb, int);//Householder変換（Hessenberg行列化）
-int mqr(Mata, Matb, int);//QR分解（Hessenberg用）
-int mevqr(Mata, Matb, int);//複素固有値（QR分解用）
-int mevecqr(Mata, Matb, Matc, int);//複素固有ベクトル（ガウスの消去法）
-int mceig(Mata, Matb, Matc, int);//標準複素固有値・固有ベクトル
-int mmerge_row(Mata, Matb, Matc, int, int, int);//行列の連結　縦方向
-int mmerge_col(Mata, Matb, Matc, int, int, int);//行列の連結　横方向
-int mgevecqr(Mata, Matb, Matc, Matd, Mate, int);//一般複素固有ベクトル
-int GCEIGQR(Mata, Matb, Matc, Matd, Mate, int);//一般複素固有値解析　固有値・固有ベクトル　QR法
-int GREIGJ(Mata, Matb, Veca, Matc, int);//一般実固有値解析　固有値・固有ベクトル　Jacobi法
-int msplit(Mata, Matb, int, int, int, int);//行列の抜き取り
-int mgmat(Mata, Matb, Matc, Matd, double, int);//Gマトリクス作成
-int mpinv(Mata, Matb, int , int );//疑似逆行列
-int mrotX(Mata, double);//オイラーの回転行列　X軸廻り
-int mrotY(Mata, double);//オイラーの回転行列　Y軸廻り
-int mrotZ(Mata, double);//オイラーの回転行列　Z軸廻り
-double radians(double);//rad <- deg
-double degrees(double);//deg <- rad
-int mrotyxyzyx(Mata, double, double, double, double, double, double);//オイラー回転行列の積
-int mDmat(Mata, Matb, double, double, double);//DistanceMatrix作成
-int mX0byX1(Mata, Matb, int, int);//Gain用計算(X1/X0)
-int mGuyan(Mata, Matb, int, int);//Guyan縮約
-int mTrv(Mata, Matb, int , int );//振動伝達率(F1/F0)
-int mSEC(Mata, Matb, Matc, int);//歪エネルギー分布計算
-int mKEC(Mata, Matb, Matc, int);//運動エネルギー分布計算
-int GCEIGQR2(Mata, Matb, Matc, Matd, Mate, int);//一般複素固有値解析　固有値・固有ベクトル　複素ばね用（減衰なし）
-int mhouse2(Mata, Matb,Matc, int);//Householder変換（Hessenberg行列化） Qベクトル付
-int mqr2(Mata, Matb,Matc, int);//QR分解（Hessenberg用） Qベクトル付
-int mceig2(Mata, Matb, Matc, int);//標準複素固有値・固有ベクトル 固有ベクトルは、元の行列と同サイズ
-int mqr3(Mata, Matb,int, int);//QR分解（Hessenberg用） イタレーション回数指定
-int mqr4(Mata, Matb, Matc, int,int);//QR分解（Hessenberg用） Qベクトル付　イタレーション回数指定
-int mdqr(Mata, Matb, int, int);//シフト付きダブルQR分解(Hessenberg用）
-double mysqrt(double);//sqrt関数
-int momit3(double **mass, double**damp, double**stiff, double**stiff_im, int *index, int row);
-int mred(double Mata, double Matb, int, int);//縮約
+int madd(Mata, Matb, Matc, int, int);//行列の和	matrix addtion
+int msub(Mata, Matb, Matc, int, int);//行列の差	matrix subtraction
+int mtimes(Mata, double, Matc, int, int);//行列のｎ倍	n times of matrix
+int mmult(Mata, Matb, Matc, int, int, int);//行列の内積	multiplication of matrix
+int mtrans(Mata, Matb, int, int);//転置		transpose of matrix
+int minv(Mata, Matb, int);//逆行列			inverse of matrix
+int mcomp(Mata, Matb, Matc, int, int);//実行列による複素表現	describe matrix of complex value by real matrix
+int mreal(Mata, Matb,int, int);//複素表現から実部のみ取りだす		get real part of complex matrix
+int msimi(Mata, Matb, Matc, int, int);//相似変換			similarity transformation
+int mchol(Mata, Matb, int);//コレスキー分解		Cholesky decomposition
+int meigj(Mata, Veca, Matb, int);//標準実固有値分解　Jacobi法	extraction of Eigenvalues and Eigenvectors
+int mskew(Veca, Mata);//歪対称行列（３＊３）	skew symmetric matrix (3 by 3)
+int moutpro(Veca, Vecb,Vecc);//外積（３＊３）		outer-product of vecters
+int mdiag(Veca, Mata, int);//対角行列化		diagonalize of vectors in real value
+int mcompdiag(Mata, Matb, int);//複素対角行列化	sub-diagonalize of vectors in complex value
+int mhouse(Mata, Matb, int);//Householder変換（Hessenberg行列化）	Householder transform to Hessenberg matrix
+int mqr(Mata, Matb, int);//QR分解（Hessenberg用）	QR decomposition for Hessenberg matrix
+int mevqr(Mata, Matb, int);//複素固有値（QR分解用）	Extraction complex Eigenvalues for QR decomposition
+int mevecqr(Mata, Matb, Matc, int);//複素固有ベクトル（ガウスの消去法）	Extraction complex Eigenvectors by Gauss elimination
+int mceig(Mata, Matb, Matc, int);//標準複素固有値・固有ベクトル	Generalized complex Eigenvalues and Eigenvectors
+int mmerge_row(Mata, Matb, Matc, int, int, int);//行列の連結　縦方向	merge 2 matrices along vertical direction
+int mmerge_col(Mata, Matb, Matc, int, int, int);//行列の連結　横方向	merge 2 matrices along horizontal direction
+int mgevecqr(Mata, Matb, Matc, Matd, Mate, int);//一般複素固有ベクトル	generalized complex Eigenvectors
+int GCEIGQR(Mata, Matb, Matc, Matd, Mate, int);//一般複素固有値解析　固有値・固有ベクトル　QR法	generalized complex Eigenvalues and Eigenvectors by QR
+int GREIGJ(Mata, Matb, Veca, Matc, int);//一般実固有値解析　固有値・固有ベクトル　Jacobi法	generalized real Eigenvalues and Eigenvectors by Jacobi
+int msplit(Mata, Matb, int, int, int, int);//行列の抜き取り	cut matirx
+int mgmat(Mata, Matb, Matc, Matd, double, int);//Gマトリクス作成	generation G matrix
+int mpinv(Mata, Matb, int , int );//疑似逆行列		pesudo-inverse (not by SVD)
+int mrotX(Mata, double);//オイラーの回転行列　X軸廻り	Euler rotation matrix around X axis
+int mrotY(Mata, double);//オイラーの回転行列　Y軸廻り	Euler rotation matrix around Y axis
+int mrotZ(Mata, double);//オイラーの回転行列　Z軸廻り	Euler rotation matrix around Z axis
+double radians(double);//rad <- deg		convert degrees to radians
+double degrees(double);//deg <- rad		convert radians to degrees
+int mrotyxyzyx(Mata, double, double, double, double, double, double);//オイラー回転行列の積	multipulication of Euler rotation by X-Y-Z-Y-X-Y axes
+int mDmat(Mata, Matb, double, double, double);//DistanceMatrix作成	generate distance matrix 
+int mX0byX1(Mata, Matb, int, int);//Gain用計算(X1/X0)	calculation for Gain
+int mGuyan(Mata, Matb, int, int);//Guyan縮約		Guyan reduction
+int mTrv(Mata, Matb, int , int );//振動伝達率(F1/F0)		isolation ratio? F1/F0
+int mSEC(Mata, Matb, Matc, int);//歪エネルギー分布計算		strain energy contribution
+int mKEC(Mata, Matb, Matc, int);//運動エネルギー分布計算		kinetic energy contribution
+int GCEIGQR2(Mata, Matb, Matc, Matd, Mate, int);//一般複素固有値解析　固有値・固有ベクトル　複素ばね用（減衰なし）	generalized complex Eigen problem for complex stiffness
+int mhouse2(Mata, Matb,Matc, int);//Householder変換（Hessenberg行列化） Qベクトル付 Householder transformation for Hessenberg matrix with Q vectors
+int mqr2(Mata, Matb,Matc, int);//QR分解（Hessenberg用） Qベクトル付		QR decomposition for Hessenberg matrix with Q vectors
+int mceig2(Mata, Matb, Matc, int);//標準複素固有値・固有ベクトル 固有ベクトルは、元の行列と同サイズ	standard complex Eigenvalues and vectors (Eigenvectors are same size with original matrix)
+int mqr3(Mata, Matb,int, int);//QR分解（Hessenberg用） イタレーション回数指定	QR decomposition with maximum iteration number
+int mqr4(Mata, Matb, Matc, int,int);//QR分解（Hessenberg用） Qベクトル付　イタレーション回数指定	QR decomposition with maximum iteration number
+int mdqr(Mata, Matb, int, int);//シフト付きダブルQR分解(Hessenberg用）	Shift double QR decomposition for Hessenberg
+double mysqrt(double);//sqrt関数						sqrt
+int momit3(double **mass, double**damp, double**stiff, double**stiff_im, int *index, int row);	ommit row and column
+int mred(double Mata, double Matb, int, int);//縮約	reduction
 
 #endif
 
